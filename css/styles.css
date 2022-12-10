@@ -1,11 +1,44 @@
 body {
-    font-family: Roboto, sans-serif;
-    color: #000;
-    font-size: 16px;
-    line-height: 1.5;
-  }
+  font-family: Roboto, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-  button {
-    cursor: pointer;
-  }
-  
+button {
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: teal;
+  color: white;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    background-color: teal;
+    color: white;
+}
+
+.footer-item:hover,
+.footer-item:focus {
+  background-color: teal;
+  color: white;
+}
+
+.images h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: #212121;
+  line-height: 36px;
+}
+
+.images p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  line-height: 30px;
+}
