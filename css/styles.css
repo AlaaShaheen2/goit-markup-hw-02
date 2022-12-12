@@ -5,25 +5,21 @@ body {
   line-height: 1.5;
 }
 
+li {
+  list-style: none;
+}
+
 button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 button:hover,
 button:focus {
-  background-color: teal;
-  color: white;
-}
-
-.nav-item:hover,
-.nav-item:focus {
-    background-color: teal;
-    color: white;
-}
-
-.footer-item:hover,
-.footer-item:focus {
-  background-color: teal;
+  background-color: #2196f3;
   color: white;
 }
 
@@ -36,9 +32,36 @@ button:focus {
 }
 
 .images p {
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: #757575;
   line-height: 30px;
+}
+
+.header-item a {
+  color: #757575;
+}
+
+.navbar a {
+  color: #212121;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+.text-card {
+  color: #757575;
+  font-family: "Roboto";
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-cardp {
+  color: #757575;
+  font-size: 16px;
+  font-family: "Roboto";
+
+  line-height: 19px;
 }
